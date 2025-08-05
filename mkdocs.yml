@@ -1,11 +1,10 @@
-site_name: cd ~/percevalw
-site_url: https://percevalw.github.io
+site_name: Adam Remaki
+site_description: "PhD student in biomedical NLP at Sorbonne Université"
+site_url: https://adam.remaki.github.io
 nav:
   - Home: index.md
-  - Software: software.md
   - Publications: publications.md
-  - Talks: talks.md
-  - Job Offers: job-offers.md
+  - Teaching: teaching.md
 theme:
   name: material
   palette:

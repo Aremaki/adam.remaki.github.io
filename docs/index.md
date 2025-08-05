@@ -24,18 +24,21 @@
 
 ![Me](assets/me.jpg)
 
-# Perceval Wajsbürt
+# Adam Remaki
 
 </div>
 
-Hi! I’m Perceval Wajsbürt, currently working as an ML/NLP engineer at [AP-HP (Paris Hospitals)](https://wikipedia.org/wiki/Assistance_publique_-_H%C3%B4pitaux_de_Paris) since 2022. I hold a PhD in medical NLP from Sorbonne Université, completed under the direction of (the amazing) [Xavier Tannier](http://xavier.tannier.free.fr), and an engineering degree from CentraleSupélec.
+I’m Adam Remaki, currently a PhD student in biomedical NLP at Sorbonne Université since 2023, under the supervision of Xavier Tannier. I hold a double degree: an engineering diploma from CentraleSupélec and a Master of Science in Applied Statistics from Imperial College London (2021).
 
-Since 2024, I’ve also been serving as the AI advisor for AP-HP’s Digital Services Department (Direction des Services Numériques, DSN), providing scientific and technical guidance on AI-related topics across the organization.
+Before starting my PhD, I worked for two years as a data scientist in the AP-HP Digital Services Department (Direction des Services Numériques, DSN) where I contributed to the development of AI solutions for AP-HP’s clinical data warehouse (the largest in Europe). I was also providing scientific and technical support across multiple healthcare research project.
 
-My work focuses on medical text mining, structured prediction models, and developing practical AI-driven tools, such as pseudonymization solutions and large-scale information extraction pipelines, to support healthcare research and enhance patient care. I’m also passionate about open-source software and designing UI/UX that’s friendly to both users and developers.
+My research focuses on biomedical information extraction from clinical notes, with the goal of improving the analysis and usability of electronic health records (EHRs). Throughout my PhD, I remain committed to advancing public healthcare through AI.
 
-=== card
-    **Current position:** NLP engineer at AP-HP   
-    **Contact:** perceval.wajsburt[at]aphp[dot]fr   
-    **LinkedIn:** [linkedin.com/in/percevalw](https://www.linkedin.com/in/percevalw)   
-    **GitHub:** [github.com/percevalw](https://github.com/percevalw)   
+Current position: PhD student in biomedical NLP at Sorbonne Université
+Contact: adam.remaki@etu.sorbonne-universite.fr
+GitHub: github.com/Aremaki
+LinkedIn: linkedin.com/in/adamremaki
+
+**Contact:** adam.remaki[at]etu[dot]sorbonne-universite.fr   
+**LinkedIn:** [https://www.linkedin.com/in/adam-remaki-402aaa174](https://www.linkedin.com/in/adam-remaki-402aaa174)   
+**GitHub:** [github.com/Aremaki](https://github.com/Aremaki)   

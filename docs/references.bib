@@ -1,149 +1,154 @@
-@article{bannour2022privacy,
-  title = {Privacy-Preserving Mimic Models for Clinical Named Entity Recognition in {{French}}},
-  author = {Bannour, Nesrine and Wajsb{\"u}rt, Perceval and Rance, Bastien and Tannier, Xavier and N{\'e}v{\'e}ol, Aur{\'e}lie},
-  year = {2022},
-  journal = {Journal of Biomedical Informatics},
-  volume = {130},
-  pages = {104073},
-  publisher = {Elsevier},
-  doi = {10.1016/j.jbi.2022.104073}
+
+@misc{remaki_adjusting_2023,
+	title = {Adjusting for the progressive digitization of health records: working examples on a multi-hospital clinical data warehouse},
+	copyright = {© 2023, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/},
+	shorttitle = {Adjusting for the progressive digitization of health records},
+	url = {https://www.medrxiv.org/content/10.1101/2023.08.17.23294220v1},
+	doi = {10.1101/2023.08.17.23294220},
+	abstract = {Objectives To propose a new method to account for time-dependent data missingness caused by the increasing digitization of health records in the analysis of large-scale clinical data.
+Materials and Methods Following a data-driven approach we modeled the progressive adoption of a common electronic health record in 38 hospitals. To this end, we analyzed data collected between 2013 and 2022 and made available in the clinical data warehouse of the Greater Paris University Hospitals. Depending on the category of data, we worked either at the hospital, department or unit level. We evaluated the performance of this model with a retrospective cohort study. We measured the temporal variations of some quality and epidemiological indicators by successively applying two methods, either a naive analysis or a novel complete-source-only analysis that accounts for digitization-induced missingness.
+Results Unrealistic temporal variations of quality and epidemiological indicators were observed when a naive analysis was performed, but this effect was either greatly reduced or disappeared when the complete-source-only method was applied.
+Discussion We demonstrated that a data-driven approach can be used to account for missingness induced by the progressive digitization of health records. This work focused on hospitalization, emergency department and intensive care units records, along with diagnostic codes, discharge prescriptions and consultation reports. Other data categories may require specific modeling of their associated data sources.
+Conclusions Electronic health records are constantly evolving and new methods should be developed to debias studies that use these unstable data sources.},
+	language = {en},
+	urldate = {2025-08-05},
+	publisher = {medRxiv},
+	author = {Remaki, Adam and Playe, Benoît and Bernard, Paul and Vittoz, Simon and Doutreligne, Matthieu and Chatelier, Gilles and Audureau, Etienne and Kempf, Emmanuelle and Porcher, Raphaël and Bey, Romain},
+	month = aug,
+	year = {2023},
+	note = {Pages: 2023.08.17.23294220},
+	file = {Full Text PDF:C\:\\Users\\adrem\\Zotero\\storage\\A4K2WEQN\\Remaki et al. - 2023 - Adjusting for the progressive digitization of heal.pdf:application/pdf},
 }
 
-@article{gerardin2022multilabel,
-  title = {Multilabel Classification of Medical Concepts for Patient Clinical Profile Identification},
-  author = {G{\'e}rardin, Christel and Wajsb{\"u}rt, Perceval and Vaillant, Pascal and Bellamine, Ali and Carrat, Fabrice and Tannier, Xavier},
-  year = {2022},
-  journal = {Artificial Intelligence in Medicine},
-  volume = {128},
-  pages = {102311},
-  publisher = {Elsevier},
-  doi = {10.1016/j.artmed.2022.102311}
+@inproceedings{remaki_limics_2025,
+	address = {Vienna, Austria},
+	title = {{LIMICS} at {ArchEHR}-{QA} 2025: {Prompting} {LLMs} {Beats} {Fine}-{Tuned} {Embeddings}},
+	isbn = {9798891762763},
+	shorttitle = {{LIMICS} at {ArchEHR}-{QA} 2025},
+	url = {https://aclanthology.org/2025.bionlp-share.18/},
+	doi = {10.18653/v1/2025.bionlp-share.18},
+	abstract = {In this paper, we investigated two approaches to clinical question-answering based on patient-formulated questions, supported by their narratives and brief medical records. The first approach leverages zero- and few-shot prompt engineering techniques with GPT-based Large Language Models (LLMs), incorporating strategies such as prompt chaining and chain-of-thought reasoning to guide the models in generating answers. The second approach adopts a two-steps structure: first, a text-classification stage uses embedding-based models (e.g., BERT variants) to identify sentences within the medical record that are most relevant to the given question; then, we prompt an LLM to paraphrase them into an answer so that it is generated exclusively from these selected sentences. Our empirical results demonstrate that the first approach outperforms the classification-guided pipeline, achieving the highest score on the development set and the test set using prompt chaining. Code: github.com/armandviolle/BioNLP-2025},
+	urldate = {2025-08-05},
+	booktitle = {Proceedings of the 24th {Workshop} on {Biomedical} {Language} {Processing} ({Shared} {Tasks})},
+	publisher = {Association for Computational Linguistics},
+	author = {Remaki, Adam and Violle, Armand and Natraj, Vikram and Guével, Étienne and Redjdal, Akram},
+	editor = {Soni, Sarvesh and Demner-Fushman, Dina},
+	month = aug,
+	year = {2025},
+	pages = {150--159},
+	file = {Full Text PDF:C\:\\Users\\adrem\\Zotero\\storage\\M4C9DSHS\\Remaki et al. - 2025 - LIMICS at ArchEHR-QA 2025 Prompting LLMs Beats Fi.pdf:application/pdf},
 }
 
-@article{gerardin2024impact,
-  title = {Impact of Translation on Biomedical Information Extraction: {{Experiment}} on Real-Life Clinical Notes},
-  author = {G{\'e}rardin, Christel and Xiong, Yuhan and Wajsb{\"u}rt, Perceval and Carrat, Fabrice and Tannier, Xavier},
-  year = {2024},
-  journal = {JMIR medical informatics},
-  volume = {12},
-  pages = {e49607},
-  doi = {10.2196/49607}
+@article{remaki_improving_2025,
+	title = {Improving {Phenotyping} of {Patients} {With} {Immune}-{Mediated} {Inflammatory} {Diseases} {Through} {Automated} {Processing} of {Discharge} {Summaries}: {Multicenter} {Cohort} {Study}},
+	volume = {13},
+	copyright = {This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published JMIR Medical Informatics, is properly cited. The complete bibliographic information, a link to the original publication on https://medinform.jmir.org/, as well as this copyright and license information must be included.},
+	shorttitle = {Improving {Phenotyping} of {Patients} {With} {Immune}-{Mediated} {Inflammatory} {Diseases} {Through} {Automated} {Processing} of {Discharge} {Summaries}},
+	url = {https://medinform.jmir.org/2025/1/e68704},
+	doi = {10.2196/68704},
+	abstract = {Background: Valuable insights gathered by clinicians during their inquiries and documented in textual reports are often unavailable in the structured data recorded in electronic health records (EHRs).
+Objective: This study aimed to highlight that mining unstructured textual data with natural language processing techniques complements the available structured data and enables more comprehensive patient phenotyping. A proof-of-concept for patients diagnosed with specific autoimmune diseases is presented, in which the extraction of information on laboratory tests and drug treatments is performed.
+Methods: We collected EHRs available in the clinical data warehouse of the Greater Paris University Hospitals from 2012 to 2021 for patients hospitalized and diagnosed with 1 of 4 immune-mediated inflammatory diseases: systemic lupus erythematosus, systemic sclerosis, antiphospholipid syndrome, and Takayasu arteritis. Then, we built, trained, and validated natural language processing algorithms on 103 discharge summaries selected from the cohort and annotated by a clinician. Finally, all discharge summaries in the cohort were processed with the algorithms, and the extracted data on laboratory tests and drug treatments were compared with the structured data.
+Results: Named entity recognition followed by normalization yielded F1-scores of 71.1 (95\% CI 63.6-77.8) for the laboratory tests and 89.3 (95\% CI 85.9-91.6) for the drugs. Application of the algorithms to 18,604 EHRs increased the detection of antibody results and drug treatments. For instance, among patients in the systemic lupus erythematosus cohort with positive antinuclear antibodies, the rate increased from 18.34\% (752/4102) to 71.87\% (2949/4102), making the results more consistent with the literature.
+Conclusions: While challenges remain in standardizing laboratory tests, particularly with abbreviations, this work, based on secondary use of clinical data, demonstrates that automated processing of discharge summaries enriched the information available in structured data and facilitated more comprehensive patient profiling.},
+	language = {EN},
+	number = {1},
+	urldate = {2025-08-05},
+	journal = {JMIR Medical Informatics},
+	author = {Remaki, Adam and Ung, Jacques and Pages, Pierre and Wajsburt, Perceval and Liu, Elise and Faure, Guillaume and Petit-Jean, Thomas and Tannier, Xavier and Gérardin, Christel},
+	month = apr,
+	year = {2025},
+	note = {Company: JMIR Medical Informatics
+Distributor: JMIR Medical Informatics
+Institution: JMIR Medical Informatics
+Label: JMIR Medical Informatics
+Publisher: JMIR Publications Inc., Toronto, Canada},
+	pages = {e68704},
+	file = {Snapshot:C\:\\Users\\adrem\\Zotero\\storage\\MP4XMV49\\e68704.html:text/html},
 }
 
-@article{gerardinBridgingClinicalPDFs2023,
-  title = {Bridging {{Clinical PDFs}} and {{Downstream Natural Language Processing}}: {{An Efficient Neural Approach}} to {{Layout Segmentation}}},
-  author = {G{\'e}rardin, Christel Ducroz and Wajsb{\"u}rt, Perceval and Dura, Basile and Calliger, Alice and Mouchet, Alexandre and Tannier, Xavier and Bey, Romain},
-  year = {2023},
-  month = oct,
-  doi = {10.2139/SSRN.4587624},
-  urldate = {2023-12-08},
-  code = {https://github.com/aphp/edspdf},
-  keywords = {Alexandre Mouchet,Alice Calliger,Basile Dura,Christel Ducroz Gerardin,Electronic Health,MACHINE LEARNING,natural language processing,PDF extraction,Perceval Wajsburt,Phenotypes,Records,Romain Bey,SSRN,Xavier Tannier}
+@article{mahe_care_2025,
+	title = {Care pathway for patients hospitalized with venous thromboembolism},
+	volume = {55},
+	copyright = {© 2025 The Author(s). European Journal of Clinical Investigation published by John Wiley \& Sons Ltd on behalf of Stichting European Society for Clinical Investigation Journal Foundation.},
+	issn = {1365-2362},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/eci.14383},
+	doi = {10.1111/eci.14383},
+	abstract = {Background Venous thromboembolism (VTE), including pulmonary embolism (PE) and deep vein thrombosis (DVT), is a potentially fatal disease with a multifactorial nature, impacting different medical and surgical specialties. Recently, new guidelines and direct oral anticoagulants facilitated early discharge for most DVT patients and non-severe PE patients. Objective The aim of this study is to illustrate the distribution of VTE patients throughout the hospital and map their care pathway from Emergency Department (ED) to hospital discharge. Methods This multicenter retrospective cross-sectional study included all hospitalized patients with a VTE code from 39 hospitals between 2018 and 2019. Data were analysed using JupyterLab, with subgroup analyses based on mode of entry, diagnosis location and thrombosis site. Results A total of 23,199 hospitalizations were analysed, involving 17,718 patients a median age 66 years [52–78] and man-to-women ratio 1.05. Among these, 10,747(46.3\%) had PE and 4176(18.0\%) had lower limb DVT. The ED was the primary entry point for 31.2\% of cases, followed by gastroenterology, surgery, geriatrics, and internal medicine. Patients admitted through ED patients were most frequently transferred to internal medicine, cardiovascular and intensive care units (ICU). The median hospital stay was 9 days [4–21], with ICU stays being the longest (mean 15 days [8–27]). Notably, 1357 patients (18.8\%) of VTE patients were discharged within 48 h of ED admission. Conclusions This study is the first to portray the distribution and care pathways of VTE patients across hospital departments. Despite recent clinical guidelines, many patients still require inpatient management, highlighting the need for dedicated care pathway.},
+	language = {en},
+	number = {4},
+	urldate = {2025-08-05},
+	journal = {European Journal of Clinical Investigation},
+	author = {Mahé, Isabelle and Skaff, Yara and Helfer, Hélène and Benarroch, Samuel and Happe, Florent and Remaki, Adam and Sallah, Kankoe},
+	year = {2025},
+	note = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/eci.14383},
+	keywords = {care pathways, epidemiology, thrombosis, venous thromboembolism},
+	pages = {e14383},
+	annote = {e14383 EJCI-2024-1683.R1},
+	file = {Full Text PDF:C\:\\Users\\adrem\\Zotero\\storage\\PIIAQCDZ\\Mahé et al. - 2025 - Care pathway for patients hospitalized with venous.pdf:application/pdf},
 }
 
-@article{tannierDevelopmentValidationNatural2024,
-  title = {Development and Validation of a Natural Language Processing Algorithm to Pseudonymize Documents in the Context of a Clinical Data Warehouse},
-  author = {Tannier, Xavier and Wajsb{\"u}rt, Perceval and Calliger, Alice and Dura, Basile and Mouchet, Alexandre and Hilka, Martin and Bey, Romain},
-  year = {2024},
-  journal = {Methods of Information in Medicine},
-  volume = {63},
-  number = {01/02},
-  pages = {021--034},
-  publisher = {Georg Thieme Verlag KG},
-  doi = {10.1055/s-0044-1778693},
-  code = {https://github.com/aphp/eds-pseudo},
-  file = {/Users/perceval/Zotero/storage/PXG2UY6W/full-text.pdf}
+@article{gerardin_ameliorer_2024,
+	series = {89e {CONGRÈS} {FRANÇAIS} {DE} {MÉDECINE} {INTERNE}},
+	title = {Améliorer la caractérisation phénotypique des patients atteints de maladies inflammatoires à médiation immunitaire par l’analyse automatique des comptes-rendus hospitaliers},
+	volume = {45},
+	issn = {0248-8663},
+	url = {https://www.sciencedirect.com/science/article/pii/S0248866324011676},
+	doi = {10.1016/j.revmed.2024.10.368},
+	abstract = {Introduction
+Dans le contexte de l’utilisation secondaire des données issues du soins rassemblées dans le dossier patient informatisé, les analyses rétrospectives réalisées utilisent essentiellement les données structurées-tels que les codes CIM10, les données de biologies etc. mais ignorent souvent les informations clés consignées dans le texte libre par les cliniciens dans les comptes-rendus hospitaliers qui sont pourtant essentielles pour la caractérisation fine des patients et de l’évolution de leur maladie au cours du temps. Cette étude vise à prouver qu’il est possible de mieux caractériser les patients atteints de maladies immuno-inflammatoires à partir de leurs dossiers informatisés en exploitant directement les données présentent dans les comptes-rendus médicaux. En particulier, nous avons cherché à démontrer que l’extraction des résultats de tests de laboratoire et des traitements médicamenteux chez des patients atteints de maladies inflammatoires à médiation immunitaire enrichit les informations structurées, permettant ainsi un profilage plus complet et précis des patients. Les quatre maladies ciblées étaient le lupus érythémateux disséminé, la sclérose systémique, le syndrome des antiphospholipides et l’artérite de Takayasu.
+Matériels et méthodes
+Nous avons collecté les dossiers médicaux de patients hospitalisés entre 2012 et 2021, diagnostiqués avec l’une des quatre maladies étudiées, avec au moins un compte-rendu disponible, à partir de la base de données de l’AP–HP. Les informations sur les tests de laboratoire et les traitements médicamenteux ont été extraites des résumés de sortie en utilisant des algorithmes de traitement automatique du langage naturel proches du modèle GPT. Ces données ont ensuite été standardisées à l’aide des systèmes de codage SNOMED CT pour les tests de laboratoire et ATC pour les médicaments, afin de les intégrer aux données structurées et faciliter leur analyse.
+Résultats
+Les algorithmes ont été testés et validés sur un échantillon de 103 résumés de sortie annotés manuellement. L’extraction d’entités d’intérêt a montré un score F1 de 0,72 IC95 [0,64–0,80] pour les tests de laboratoire et de 0,86 [0,80 ; 0,90] pour les médicaments. Ces algorithmes ont été appliqués à un ensemble de 18 604 dossiers médicaux électroniques, avec une importante augmentation de la détection des marqueurs diagnostiques et des traitements par rapport à l’analyse des données structurées seules. Par exemple, dans la cohorte lupus, la détection de la positivité des anticorps antinucléaires chez les patients a augmenté de 53,6 \% (en valeur absolue) et la détection des patients sous hydroxychloroquine a augmenté de 63,4 \% ; de même, dans la cohorte syndrome des antiphospholipides, le nombre de patients traités par anti-vitamine K était 41 \% plus élevé avec cette méthode. La précision des algorithmes a été vérifiée manuellement sur un échantillon de 240 entités prédites, avec une précision de 0,97 pour les tests de laboratoire et de 1,0 pour les médicaments, confirmant la fiabilité des algorithmes développés. Le code source des algorithmes est disponible en accès libre.
+Conclusion
+Cette étude démontre que l’extraction automatique des informations contenues dans les résumés de sortie hospitalière permet d’enrichir les données structurées des dossiers médicaux électroniques et de mieux caractériser les patients dans les analyses sur données de vie réelle. L’intégration de ces informations ouvre la voie à une meilleure compréhension et prise en charge des patients en améliorant notamment la qualité des analyses cliniques.},
+	urldate = {2025-08-05},
+	journal = {La Revue de Médecine Interne},
+	author = {Gerardin, C. and Remaki, Adam and Ung, J. and Pagès, P. and Wajsburt, P. and Faure, G. and Petit-Jean, T. and Tannier, X.},
+	month = dec,
+	year = {2024},
+	pages = {A387--A388},
 }
 
-@incollection{wajsburtEffectDepthOrder2021,
-  title = {Effect of {{Depth Order}} on {{Iterative Nested Named Entity Recognition Models}}},
-  booktitle = {Lecture {{Notes}} in {{Computer Science}} (Including Subseries {{Lecture Notes}} in {{Artificial Intelligence}} and {{Lecture Notes}} in {{Bioinformatics}})},
-  author = {Wajsb{\"u}rt, Perceval and Taill{\'e}, Yoann and Tannier, Xavier},
-  year = {2021},
-  volume = {12721 LNAI},
-  eprint = {2104.01037},
-  pages = {428--432},
-  issn = {16113349},
-  doi = {10.1007/978-3-030-77211-6_50},
-  urldate = {2021-08-20},
-  abstract = {This paper studies the effect of the order of depth of mention on nested named entity recognition (NER) models. NER is an essential task in the extraction of biomedical information, and nested entities are common since medical concepts can assemble to form larger entities. Conventional NER systems only predict disjointed entities. Thus, iterative models for nested NER use multiple predictions to enumerate all entities, imposing a predefined order from largest to smallest or smallest to largest. We design an order-agnostic iterative model and a procedure to choose a custom order during training and prediction. We propose a modification of the Transformer architecture to take into account the entities predicted in the previous steps. We provide a set of experiments to study the model's capabilities and the effects of the order on performance. Finally, we show that the smallest to largest order gives the best results.},
-  archiveprefix = {arXiv},
-  isbn = {978-3-030-77210-9},
-  keywords = {Biomedical,Named entity recognition,Nested entities},
-  file = {/Users/perceval/Zotero/storage/DSJ9TGDN/full-text.pdf}
+@article{vittoz_ameliorer_2025,
+	series = {Congrès É{MOIS} 2025},
+	title = {Améliorer l'utilisation des tests biologiques dans l'entrepôt de données de santé de l'{AP}-{HP} en développant des pipelines d'analyse automatique pour le contrôle de la qualité des données.},
+	volume = {73},
+	issn = {2950-4333},
+	url = {https://www.sciencedirect.com/science/article/pii/S2950433325000679},
+	doi = {10.1016/j.jeph.2025.202872},
+	abstract = {Introduction
+L'avènement des Entrepôts de Données de Santé (EDS) a facilité une meilleure réutilisation massive des données de santé collectées dans le cadre du soin. Ces EDS facilitent notamment la réalisation d’études multicentriques en regroupant les données de plusieurs hôpitaux. Néanmoins, l'exploitation des données des tests de laboratoire pose souvent des problèmes en raison du manque de standardisation des données d'un laboratoire à l'autre.
+Méthodes
+Nous avons analysé la base de données de biologie des 38 hôpitaux universitaires de l'Assistance publique-Hôpitaux de Paris (AP-HP), contenant plus d'un milliard d'enregistrements de tests de laboratoire depuis 2020. Deux méthodes principales ont été utilisées pour évaluer la qualité des données. Premièrement, nous avons évalué l'exhaustivité des données en comparant directement les échantillons dans un système d'information de laboratoire (SIL) aux enregistrements correspondants dans la base de données intégrée. Deuxièmement, nous avons développé des pipelines afin d'extraire et préparer des variables biologiques fréquemment prescrites dans différents contextes cliniques (par exemple “Gaz du Sang” pour les patients de réanimation). Ces pipelines ont ensuite été évalués statistiquement pour leur exhaustivité et leur plausibilité clinique sur la base de critères médicaux prédéfinis. La stabilité temporelle de ces pipelines a également été analysée pour tenir compte des changements dans les pratiques de codage
+Résultats
+Notre analyse a révélé que l'exhaustivité des données dans la base de données intégrée était de 95 \% par rapport à l'échantillon SIL original (37 464 tests de laboratoire). Les pipelines ont démontré une bonne performance, avec 91+/-0.05\% des variables fréquentes répondant aux seuils de plausibilité clinique prédéfinis. L'analyse de la stabilité temporelle a démontré la robustesse de ces pipelines tout au long de l'étude.
+Discussion/Conclusion
+Les pipelines de qualité des données développés améliorent la fiabilité et l'utilité des données de laboratoire multicentriques. Nous pensons qu'une utilisation régulière de ces pipelines est essentielle pour garantir l'intégrité des données au fil du temps et des résultats de recherche plus robustes et plus précis.},
+	urldate = {2025-08-05},
+	journal = {Journal of Epidemiology and Population Health},
+	author = {Vittoz, Simon and Remaki, Adam and Petit jean, Thomas and Andre, Christophe and Chatellier, Gilles and Bey, Romain and Gérardin, Christel},
+	month = mar,
+	year = {2025},
+	keywords = {données de biologie, Entrepôt de données de santé, Qualité des données},
+	pages = {202872},
 }
 
-@inproceedings{wajsburtEndtoendNeuralModel2023,
-  title = {An End-to-End Neural Model Based on Cliques and Scopes for Frame Extraction in Long Breast Radiology Reports},
-  booktitle = {The 22nd {{Workshop}} on {{Biomedical Natural Language Processing}} and {{BioNLP Shared Tasks}}},
-  author = {Wajsb{\"u}rt, Perceval and Tannier, Xavier},
-  year = {2023},
-  pages = {156--170},
-  publisher = {Association for Computational Linguistics},
-  address = {Toronto, Canada},
-  doi = {10.18653/v1/2023.bionlp-1.13},
-  urldate = {2025-06-28},
-  code = {https://github.com/percevalw/breast-imaging-frame-extraction},
-  langid = {english},
-  file = {/Users/perceval/Zotero/storage/BG3IUQS4/Wajsburt et Tannier - 2023 - An end-to-end neural model based on cliques and scopes for frame extraction in long breast radiology.pdf;/Users/perceval/Zotero/storage/G8DXTIZI/18_Paper.pdf}
-}
-
-@phdthesis{wajsburtExtractionNormalizationSimple2021,
-  type = {Theses},
-  title = {Extraction and Normalization of Simple and Structured Entities in Medical Documents},
-  author = {Wajsb{\"u}rt, Perceval},
-  year = {2021},
-  month = dec,
-  url = {https://hal.science/tel-03624928},
-  hal_id = {tel-03624928},
-  hal_version = {v1},
-  school = {Sorbonne Universit{\'e}},
-  keywords = {clinical,clinique,extraction,multilingual,multilingue,nlp,normalisation,normalization,structure,tal}
-}
-
-@article{wajsburtMedicalConceptNormalization2021,
-  title = {Medical Concept Normalization in {{French}} Using Multilingual Terminologies and Contextual Embeddings},
-  author = {Wajsb{\"u}rt, Perceval and Sarfati, Arnaud and Tannier, Xavier},
-  year = {2021},
-  month = feb,
-  journal = {Journal of Biomedical Informatics},
-  volume = {114},
-  pages = {103684},
-  publisher = {Academic Press Inc.},
-  issn = {15320464},
-  doi = {10.1016/j.jbi.2021.103684},
-  urldate = {2021-02-19},
-  abstract = {Introduction: Concept normalization is the task of linking terms from textual medical documents to their concept in terminologies such as the UMLS{\textregistered}. Traditional approaches to this problem depend heavily on the coverage of available resources, which poses a problem for languages other than English. Objective: We present a system for concept normalization in French. We consider textual mentions already extracted and labeled by a named entity recognition system, and we classify these mentions with a UMLS concept unique identifier. We take advantage of the multilingual nature of available terminologies and embedding models to improve concept normalization in French without translation nor direct supervision. Materials and methods: We consider the task as a highly-multiclass classification problem. The terms are encoded with contextualized embeddings and classified via cosine similarity and softmax. A first step uses a subset of the terminology to finetune the embeddings and train the model. A second step adds the entire target terminology, and the model is trained further with hard negative selection and softmax sampling. Results: On two corpora from the Quaero FrenchMed benchmark, we show that our approach can lead to good results even with no labeled data at all; and that it outperforms existing supervised methods with labeled data. Discussion: Training the system with both French and English terms improves by a large margin the performance of the system on a French benchmark, regardless of the way the embeddings were pretrained (French, English, multilingual). Our distantly supervised method can be applied to any kind of documents or medical domain, as it does not require any concept-labeled documents. Conclusion: These experiments pave the way for simpler and more effective multilingual approaches to processing medical texts in languages other than English.},
-  code = {https://github.com/percevalw/mlg-norm},
-  keywords = {Information extraction,Medical concept normalization,Multilingual representation,Natural language processing},
-  file = {/Users/perceval/Zotero/storage/7G8E34HI/full-text.pdf}
-}
-
-@inproceedings{wajsburtParticipationLequipeLIMICS2020,
-  title = {Participation de l'{\'e}quipe Du {{LIMICS}} {\`a} {{DEFT}} 2020},
-  booktitle = {Actes de La 6e Conference Conjointe {{Journees}} d'{{Etudes}} Sur La {{Parole}} ({{JEP}}, 33e Edition), {{Traitement Automatique}} Des {{Langues Naturelles}} ({{TALN}}, 27e Edition), {{Rencontre}} Des {{Etudiants Chercheurs}} En {{Informatique}} Pour Le {{Traitement Automatique}} Des {{Langues}} ({{RECIT}}},
-  author = {Wajsb{\"u}rt, Perceval and Taill{\'e}, Yoann and Lain{\'e}, Guillaume and Tannier, Xavier},
-  year = {2020},
-  url = {https://aclanthology.org/2020.jeptalnrecital-deft.11/},
-  urldate = {2021-03-01},
-  abstract = {Nous pr{\'e}sentons dans cet article les m{\'e}thodes con{\c c}ues et les r{\'e}sultats obtenus lors de notre participation {\`a} la t{\^a}che 3 de la campagne d'{\'e}valuation DEFT 2020, consistant en la reconnaissance d'entit{\'e}s nomm{\'e}es du domaine m{\'e}dical. Nous proposons deux mod{\`e}les diff{\'e}rents permettant de prendre en compte les entit{\'e}s imbriqu{\'e}es, qui repr{\'e}sentent une des difficult{\'e}s du jeu de donn{\'e}es propos{\'e}es, et pr{\'e}sentons les r{\'e}sultats obtenus. Notre meilleur run obtient la meilleure performance parmi les participants, sur l'une des deux sous-t{\^a}ches du d{\'e}fi. ABSTRACT Participation of team LIMICS in the DEFT 2020 challenge In this article, we present the methods developed and the results obtained during our participation in task 3 of the DEFT 2020 evaluation campaign, consisting of the recognition of named entities in the medical field. We propose two different models allowing to take into account the nested entities, which represent one of the difficulties of the proposed data set, and present the results obtained. Our best run obtains the best performance among the participants, on one of the two subtasks of the challenge. MOTS-CL{\'E}S : Reconnaissance d'entit{\'e}s nomm{\'e}es, apprentissage profond, entit{\'e}s imbriqu{\'e}es.},
-  keywords = {22e edition) Atelier DEfi KEYWORDS: Named entity r,27e edition),33e edition),deep learning,nested entities,Participation de l'equipe du LIM-ICS a DEFT 2020 6,Rencontre des Etudiants Chercheurs en Informatique,Traite-ment Automatique des Langues Naturelles (TA},
-  file = {/Users/perceval/Zotero/storage/FKZ3Q8PS/full-text.pdf}
-}
-
-@article{remakiImprovingPhenotypingPatients2025,
-  title = {Improving {{Phenotyping}} of {{Patients With Immune-Mediated Inflammatory Diseases Through Automated Processing}} of {{Discharge Summaries}}: {{Multicenter Cohort Study}}},
-  shorttitle = {Improving {{Phenotyping}} of {{Patients With Immune-Mediated Inflammatory Diseases Through Automated Processing}} of {{Discharge Summaries}}},
-  author = {Remaki, Adam and Ung, Jacques and Pages, Pierre and Wajsbürt, Perceval and Liu, Elise and Faure, Guillaume and {Petit-Jean}, Thomas and Tannier, Xavier and G{\'e}rardin, Christel},
-  year = {2025},
-  month = apr,
-  journal = {JMIR Medical Informatics},
-  volume = {13},
-  pages = {e68704},
-  issn = {2291-9694},
-  doi = {10.2196/68704},
-  urldate = {2025-06-28},
-  abstract = {Background               Valuable insights gathered by clinicians during their inquiries and documented in textual reports are often unavailable in the structured data recorded in electronic health records (EHRs).                                         Objective               This study aimed to highlight that mining unstructured textual data with natural language processing techniques complements the available structured data and enables more comprehensive patient phenotyping. A proof-of-concept for patients diagnosed with specific autoimmune diseases is presented, in which the extraction of information on laboratory tests and drug treatments is performed.                                         Methods               We collected EHRs available in the clinical data warehouse of the Greater Paris University Hospitals from 2012 to 2021 for patients hospitalized and diagnosed with 1 of 4 immune-mediated inflammatory diseases: systemic lupus erythematosus, systemic sclerosis, antiphospholipid syndrome, and Takayasu arteritis. Then, we built, trained, and validated natural language processing algorithms on 103 discharge summaries selected from the cohort and annotated by a clinician. Finally, all discharge summaries in the cohort were processed with the algorithms, and the extracted data on laboratory tests and drug treatments were compared with the structured data.                                         Results               Named entity recognition followed by normalization yielded F1-scores of 71.1 (95\% CI 63.6-77.8) for the laboratory tests and 89.3 (95\% CI 85.9-91.6) for the drugs. Application of the algorithms to 18,604 EHRs increased the detection of antibody results and drug treatments. For instance, among patients in the systemic lupus erythematosus cohort with positive antinuclear antibodies, the rate increased from 18.34\% (752/4102) to 71.87\% (2949/4102), making the results more consistent with the literature.                                         Conclusions               While challenges remain in standardizing laboratory tests, particularly with abbreviations, this work, based on secondary use of clinical data, demonstrates that automated processing of discharge summaries enriched the information available in structured data and facilitated more comprehensive patient profiling.},
-  code = {https://github.com/Aremaki/BioMedics},
-  langid = {english}
+@inproceedings{delourme_limicsdeft24_2024,
+	address = {Toulouse, France},
+	title = {{LIMICS}@{DEFT}'24 : {Un} mini-{LLM} peut-il tricher aux {QCM} de pharmacie en fouillant dans {Wikipédia} et {NACHOS} ?},
+	shorttitle = {{LIMICS}@{DEFT}'24},
+	url = {https://aclanthology.org/2024.jeptalnrecital-deft.3/},
+	abstract = {Ce papier explore deux approches pour répondre aux questions à choix multiples (QCM) de pharmacie du défi DEFT 2024 en utilisant des modèles de langue (LLMs) entraînés sur des données ouvertes avec moins de 3 milliards de paramètres. Les deux approches reposent sur l'architecture RAG (Retrieval Augmented Generation) pour combiner la récupération de contexte à partir de bases de connaissances externes (NACHOS et Wikipédia) avec la génération de réponses par le LLM Apollo-2B. La première approche traite directement les QCMs et génère les réponses en une seule étape, tandis que la seconde approche reformule les QCMs en questions binaires (Oui/Non) puis génère une réponse pour chaque question binaire. Cette dernière approche obtient un Exact Match Ratio de 14.7 et un Hamming Score de 51.6 sur le jeu de test, ce qui démontre le potentiel du RAG pour des tâches de Q/A sous de telles contraintes.},
+	language = {fra},
+	urldate = {2025-08-05},
+	booktitle = {Actes du {Défi} {Fouille} de {Textes}@{TALN} 2024},
+	publisher = {ATALA and AFPC},
+	author = {Delourme, Solène and Remaki, Adam and Gérardin, Christel and Vaillant, Pascal and Tannier, Xavier and Seroussi, Brigitte and Redjdal, Akram},
+	editor = {Dufour, Richard and Favre, Benoit and Rouvier, Mickael and Bazoge, Adrien and Labrak, Yanis},
+	month = jul,
+	year = {2024},
+	pages = {23--39},
+	file = {Full Text PDF:C\:\\Users\\adrem\\Zotero\\storage\\KJGH9PX2\\Delourme et al. - 2024 - LIMICS@DEFT'24  Un mini-LLM peut-il tricher aux Q.pdf:application/pdf},
 }

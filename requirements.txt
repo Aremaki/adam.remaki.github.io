@@ -1,3 +1,0 @@
-mkdocs-eds @ git+https://github.com/percevalw/mkdocs-eds.git@main#egg=mkdocs-eds
-pret-joy
-pybtex<=0.24.0

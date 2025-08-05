@@ -150,16 +150,13 @@ def _build_publications(bib_path: Path) -> str:
             kind = "Thesis"
         else:
             kind = "Article"
-        authors = ", ".join(
-            [
-                a.split(",")[1].strip() + " " + a.split(",")[0].strip()
-                if "," in a
-                else a.strip()
-                for a in authors.split(" and ")
-            ]
-        )  # split by "and" and strip each author
-        authors = authors.replace("Wajsburt", "Wajsbürt")
-        authors = authors.replace("Perceval Wajsbürt", "<u>Perceval Wajsbürt</u>")
+        authors = ", ".join([
+            a.split(",")[1].strip() + " " + a.split(",")[0].strip()
+            if "," in a
+            else a.strip()
+            for a in authors.split(" and ")
+        ])  # split by "and" and strip each author
+        authors = authors.replace("Adam Remaki", "<u>Adam Remaki</u>")
         date = f.get("date", "")
 
         url = f.get("url", "")
@@ -172,31 +169,18 @@ def _build_publications(bib_path: Path) -> str:
             arxiv_url = "https://arxiv.com/abs/" + f.get("eprint", "").strip()
 
         code_link = f.get("code")
-        abstract = f.get("abstract", "")
-        venue = f.get("journal") or f.get("booktitle", "")
-        pub_type = e["type"].capitalize()
 
         lines.append(authors + "   ")
 
         lines.append(f"**{title}**" + "   ")
 
-        # if abstract:
-        #     lines.append(
-        #         "<details style='margin: 0'><summary>Abstract</summary>"
-        #         + html.escape(abstract)
-        #         + "</details>"
-        #     )
-
-        # if venue:
-        #     lines.append(f"*{venue}*" + "   ")
-
         link_parts: list[str] = []
         if url:
-            link_parts.append(f'[{kind}]({url}){{ .button-link .blue-button }}')
+            link_parts.append(f"[{kind}]({url}){{ .button-link .blue-button }}")
         if arxiv_url:
-            link_parts.append(f'[ArXiv]({arxiv_url}){{ .button-link .blue-button }}')
+            link_parts.append(f"[ArXiv]({arxiv_url}){{ .button-link .blue-button }}")
         if code_link:
-            link_parts.append(f'[Code]({code_link}){{ .button-link .green-button }}')
+            link_parts.append(f"[Code]({code_link}){{ .button-link .green-button }}")
         if link_parts:
             lines.append(" · ".join(link_parts))
 
