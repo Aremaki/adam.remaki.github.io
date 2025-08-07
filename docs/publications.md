@@ -9,7 +9,7 @@
 
 <u>Adam Remaki</u>, Jacques Ung, Pierre Pages, Perceval Wajsburt, Elise Liu, Guillaume Faure, Thomas Petit-Jean, Xavier Tannier, Christel Gérardin   
 **Improving Phenotyping of Patients With Immune-Mediated Inflammatory Diseases Through Automated Processing of Discharge Summaries: Multicenter Cohort Study**   
-[Article](https://medinform.jmir.org/2025/1/e68704){ .button-link .blue-button } • [Poster](/assets/files/2025_02_01_SaintMalo.pdf){ .button-link .pink-button } • [Code](https://github.com/Aremaki/BioMedics){ .button-link .purple-button }
+[Article](https://medinform.jmir.org/2025/1/e68704){ .button-link .blue-button } • [Poster](/assets/files/2025_02_01_SaintMalo.pdf){ .button-link .pink-button } • [Code](https://github.com/Aremaki/BioMedics){ .button-link .purple-button } • [Newspaper](https://www.leparisien.fr/societe/sante/avec-les-patients-similaires-et-lia-le-simple-fait-daller-a-lhopital-fait-avancer-la-medecine-15-02-2025-ODY5GTOTZZEUVAUWNPNL3V7LGU.php){ .button-link .orange-button }
 
 ---
 
