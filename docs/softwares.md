@@ -20,7 +20,7 @@ title: Softwares
 } */
 </style>
 
-Below are several open-source projects I have architected and actively lead as part of my work, in collaboration with colleagues and community contributors.
+Open-source softwares I have led across various research projects.
 
 === card
     :material-graph:{ .syncabel } [**SynCABEL**](https://huggingface.co/collections/Aremaki/syncabel-6879464c408df85057979e13)
