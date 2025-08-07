@@ -1,7 +1,7 @@
 ---
-title: Software
+title: Softwares
 ---
-# Software
+# Softwares
 
 <style>
 @media screen and (min-width: 24rem) {

@@ -5,7 +5,7 @@ nav:
   - Home: index.md
   - Publications: publications.md
   - Teaching: teaching.md
-  - Software: software.md
+  - Softwares: softwares.md
 theme:
   name: material
   palette:
