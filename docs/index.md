@@ -34,11 +34,11 @@ Before starting my PhD, I worked for two years as a data scientist in the AP-HP 
 
 My research focuses on biomedical information extraction from clinical notes, with the goal of improving the analysis and usability of electronic health records (EHRs). Throughout my PhD, I remain committed to advancing public healthcare through AI.
 
-Current position: PhD student in biomedical NLP at Sorbonne Université
-Contact: adam.remaki@etu.sorbonne-universite.fr
-GitHub: github.com/Aremaki
-LinkedIn: linkedin.com/in/adamremaki
+=== card
+    [:fontawesome-brands-linkedin:{ .linkedin }](https://www.linkedin.com/in/adam-remaki-402aaa174) [LinkedIn](https://www.linkedin.com/in/adam-remaki-402aaa174)   
+    [:fontawesome-brands-github:{ .github }](https://github.com/Aremaki) [GitHub](https://github.com/Aremaki)  
+    [:simple-googlescholar:{ .scholar }](https://scholar.google.com/citations?user=nELf6ngAAAAJ&hl=en) [Google Scholar](https://scholar.google.com/citations?user=nELf6ngAAAAJ&hl=en)   
+    [:simple-orcid:{ .orcid }](https://orcid.org/0000-0002-8902-8207) [ORCID: 0000-0002-8902-8207](https://orcid.org/0000-0002-8902-8207)   
+    :fontawesome-regular-envelope:{ .mail } adam.remaki[at]etu[dot]sorbonne-universite.fr   
 
-**Contact:** adam.remaki[at]etu[dot]sorbonne-universite.fr   
-**LinkedIn:** [https://www.linkedin.com/in/adam-remaki-402aaa174](https://www.linkedin.com/in/adam-remaki-402aaa174)   
-**GitHub:** [github.com/Aremaki](https://github.com/Aremaki)   
+    

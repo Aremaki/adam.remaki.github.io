@@ -289,6 +289,22 @@ a.button-link.red-button {
     --base-color: #ff0000;
 }
 
+a.button-link.yellow-button {
+    --base-color: #ffeb3b;
+}
+
+a.button-link.orange-button {
+    --base-color: #ff9800;
+}
+
+a.button-link.dark-green-button {
+    --base-color: #006400;
+}
+
+a.button-link.pink-button {
+    --base-color: #e91e63;
+}
+
 .md-header span.md-ellipsis {
     font-family: Inconsolata, Roboto Mono, Roboto, sans-serif;
 }
@@ -306,4 +322,49 @@ a.button-link.red-button {
     transform: rotate(-32deg);
     transform-origin: center;
     padding: 0.25em 0.75em;
+}
+
+.github {
+    font-size: 25px;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.linkedin {
+    font-size: 25px;
+    color:#006bb6;
+    padding-bottom: 5px;
+}
+
+.mail {
+    font-size: 25px;
+    color:#ff0000;
+    padding-bottom: 5px;
+}
+
+.orcid {
+    font-size: 25px;
+    color:#00b300;
+    padding-bottom: 5px;
+}
+
+.scholar {
+    font-size: 25px;
+    color:#0073ff;
+    padding-bottom: 5px;
+}
+
+.syncabel {
+    font-size: 25px;
+    color:#9000ff;
+}
+
+.biomedics {
+    font-size: 25px;
+    color:#00b300;
+}
+
+.edsteva {
+    font-size: 25px;
+    color:#006bb6;
 }
