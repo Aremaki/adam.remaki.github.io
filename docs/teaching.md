@@ -9,7 +9,18 @@ title: Teaching
 }
 </style>
 
-## CentraleSupelec
+---
+title: Teaching
+---
+# Teaching
+
+<style>
+
+.md-typeset .card-set {
+}
+</style>
+
+## [<img src="assets/centralesupelec.png" alt="CentraleSupelec logo" width="25" height="25" style="vertical-align: middle"> CentraleSupelec](https://www.centralesupelec.fr/)
 
 ### EI AP-HP
 
@@ -29,8 +40,7 @@ Practical introduction to real-world healthcare data, covering key challenges su
 [Slides](/assets/files/statml-slides-2023-en.pdf){ .button-link .purple-button }
 
 ---
-
-## Sorbonne University
+## [<img src="assets/SorbonneUniversity.png" alt="CentraleSupelec logo" width="25" height="25" style="vertical-align: middle"> Sorbonne University](https://www.sorbonne-universite.fr/)
 
 ### Machine Learning for Health
 
@@ -58,7 +68,7 @@ Introductory lecture on data analysis, covering the manipulation of dataframes w
 
 ---
 
-## French Guyana University (2024)
+## [<img src="assets/GuyanaUniversity.png" alt="CentraleSupelec logo" width="30" height="30" style="vertical-align: middle"> French Guyana University](https://www.univ-guyane.fr/)
 
 ### Mathematics
 
