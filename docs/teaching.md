@@ -20,7 +20,7 @@ title: Teaching
 }
 </style>
 
-## [<img src="/assets/centralesupelec.png" alt="CentraleSupelec logo" width="25" height="25" style="vertical-align: middle"> CentraleSupelec](https://www.centralesupelec.fr/)
+## <img src="/assets/centralesupelec.png" alt="CentraleSupelec logo" width="30" height="30" style="vertical-align: middle"> [CentraleSupelec](https://www.centralesupelec.fr/)
 
 ### EI AP-HP
 
@@ -40,7 +40,7 @@ Practical introduction to real-world healthcare data, covering key challenges su
 [Slides](/assets/files/statml-slides-2023-en.pdf){ .button-link .purple-button }
 
 ---
-## [<img src="/assets/SorbonneUniversity.png" alt="CentraleSupelec logo" width="25" height="25" style="vertical-align: middle"> Sorbonne University](https://www.sorbonne-universite.fr/)
+## <img src="/assets/SorbonneUniversity.png" alt="CentraleSupelec logo" width="30" height="30" style="vertical-align: middle"> [Sorbonne University](https://www.sorbonne-universite.fr/)
 
 ### Machine Learning for Health
 
@@ -68,7 +68,7 @@ Introductory lecture on data analysis, covering the manipulation of dataframes w
 
 ---
 
-## [<img src="/assets/GuyanaUniversity.png" alt="CentraleSupelec logo" width="30" height="30" style="vertical-align: middle"> French Guyana University](https://www.univ-guyane.fr/)
+## <img src="/assets/GuyanaUniversity.png" alt="CentraleSupelec logo" width="35" height="35" style="vertical-align: middle"> [French Guyana University](https://www.univ-guyane.fr/)
 
 ### Mathematics
 
