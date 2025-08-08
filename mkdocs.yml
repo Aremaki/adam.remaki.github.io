@@ -1,6 +1,6 @@
 site_name: Adam Remaki
 site_description: "PhD student in biomedical NLP at Sorbonne Université"
-site_url: https://adam.remaki.github.io
+site_url: http://aremaki.github.io
 nav:
   - Home: index.md
   - Publications: publications.md
@@ -27,6 +27,18 @@ theme:
     - content.code.annotate
     - content.code.copy
     - announce.dismiss
+extra:
+  social:
+    - icon: simple/gmail
+      link: mailto:adam.remaki@etu.sorbonne-universite.fr
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Aremaki
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/adam-remaki-402aaa174
+    - icon: simple/googlescholar
+      link: https://scholar.google.com/citations?user=nELf6ngAAAAJ&hl=en
+    - icon: simple/orcid
+      link: https://orcid.org/0000-0002-8902-8207
 extra_css:
   - assets/stylesheets/extra.css
 watch:
